@@ -5,6 +5,7 @@
 }
 
  .footer {
+    position: absolute;
     display: inline-block;
     width: 100%;
     margin: 10px 10px 10px 10px;
@@ -12,8 +13,8 @@
 } 
 
 .footer img {
-    float: right;
-    bottom: 0;
+    position: relative;
+    left: 1273px;
 }
 
 .logo{
@@ -26,6 +27,7 @@
 
 .header img {
     float: right;
+    margin-right: 15px;
 }
 
 .logo{
@@ -162,6 +164,7 @@
 }
 
 .side-col {
+    position: absolute;
     width: 240px;
     height: 100%;
     padding: 0px 50px 0px 50px;
