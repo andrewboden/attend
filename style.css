@@ -85,40 +85,6 @@
     font-variant: small-caps;
 }
 
-.btn-group button {
-    background-color: #394262; /* Green background */
-    border: 1px solid white; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    float: right; /* Float the buttons side by side */
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
-
-    font-variant: small-caps;
-  }
-  
-  .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-  
-  /* Clear floats (clearfix hack) */
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Add a background color on hover */
-  .btn-group button:hover {
-    background-color: #394262;
-  }
-
   .logIn {
     position: absolute;
     left: 98px;
@@ -156,9 +122,11 @@
   }
 
   .whitebutton {
-      margin: 15px;
+      position: relative;
       width: 175px;
       height: 60px;
+
+      left: 1061px;
 
       background-color: white;
       border: 1px solid #394262;
@@ -171,9 +139,11 @@
   }
 
   .bluebutton {
-    margin: 15px;
+    position: relative;
     width: 175px;
     height: 60px;
+
+    left: 1061px;
 
     background-color: #394262;
     border: 1px solid white;
@@ -191,6 +161,6 @@
 }
 
 .col {
-    align-self: right;
+    position: absolute;
 }
 
