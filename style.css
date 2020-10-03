@@ -1,0 +1,196 @@
+
+
+.header {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.logo{
+    font-family: Roboto;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #394262;
+    float: left;
+}
+
+
+.svgRect {
+    position: relative;
+    stroke-width:5;
+
+    width: 551px;
+    height: 440px;
+    left: 0px;
+    top: 0px;
+
+    background: #394262;
+    border-radius: 40px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svgMiniRect {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 76px;
+    top: 137px; 
+
+    background: white;
+    border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userInput {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+
+}
+
+.svgMiniRect2 {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 76px;
+    top: 232px;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.submitButton {
+    position: absolute;
+
+    left: 345px;
+    top: 332px;
+    width: 175px;
+    height: 60px;
+
+    background-color: white;
+    border: 1px solid #394262;
+    color: #394262;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.btn-group button {
+    background-color: #394262; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+    font-variant: small-caps;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #394262;
+  }
+
+  .logIn {
+    position: absolute;
+    left: 98px;
+    top: 72px;
+
+    width: 175px;
+    height: 60px;
+
+    background-color: #394262;
+    border: 1px solid;
+    color: white;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+  }
+
+  .signUp {
+    position: absolute;
+    left: 282px;
+    top: 72px;
+
+    width: 175px;
+    height: 60px;
+
+    background-color: #394262;
+    border: 1px solid;
+    color: white;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+  }
+
+  .whitebutton {
+      margin: 15px;
+      width: 175px;
+      height: 60px;
+
+      background-color: white;
+      border: 1px solid #394262;
+      color: #394262;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-size: 18px;
+      font-variant: small-caps;
+  }
+
+  .bluebutton {
+    margin: 15px;
+    width: 175px;
+    height: 60px;
+
+    background-color: #394262;
+    border: 1px solid white;
+    color: white;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.button-group {
+    align-self: right;
+    margin-right: 10px;
+}
+
+.col {
+    align-self: right;
+}
+
