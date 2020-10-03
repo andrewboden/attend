@@ -1,0 +1,171 @@
+.header {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+ .footer {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+    bottom: 0;
+} 
+
+.footer img {
+    float: right;
+    bottom: 0;
+}
+
+.logo{
+    font-family: Roboto;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #394262;
+    float: left;
+}
+
+.header img {
+    float: right;
+}
+
+.logo{
+    font-family: Roboto;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #394262;
+    float: left;
+}
+
+.mainPage {
+    position: relative;
+}
+
+.createHouse {
+
+    position: absolute;
+    width: 314px;
+    height: 49px;
+    left: 76px;
+    top: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #394262;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.joinCode {
+
+    position: absolute;
+    width: 314px;
+    height: 49px;
+    left: 76px;
+    top: 300px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #394262;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.svgRect {
+    position: relative;
+    stroke-width:5;
+
+    width: 551px;
+    height: 440px;
+    left: 0px;
+    top: 0px;
+
+    background: white;
+    border-radius: 40px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svgMiniRect {
+    position: absolute;
+    width: 536px;
+    height: 116px;
+    left: 76px;
+    top: 137px; 
+
+    background: white;
+    border-radius: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svgMiniRect2 {
+    position: absolute;
+    width: 536px;
+    height: 116px;
+    left: 76px;
+    top: 437px;
+
+    background: #394262;
+    border-radius: 50px;
+    border-color: #394262;
+}
+
+.userInput {
+    position: absolute;
+    width: 536px;
+    height: 116px;
+    background: white;
+    border-radius: 50px;
+
+}
+
+.text {
+    position: absolute;
+    width: 138px;
+    height: 36px;
+    left: 199px;
+    top: 40px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: capitalize;
+
+    color: white;
+
+}
+
+.side-col {
+    width: 240px;
+    height: 100%;
+    padding: 0px 50px 0px 50px;
+    border-right: 1px solid #BAC8E2;
+}
+
+
