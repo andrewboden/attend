@@ -32,7 +32,7 @@ function queryDatabase() {
 
   // Read all rows from table
   const request = new Request(
-    `select guest_id, name, date_time_start, date_time_end from guests where house_id = 1`,
+    `select * from users`,
     (err, rowCount) => {
       if (err) {
         console.error(err.message);
