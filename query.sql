@@ -43,4 +43,4 @@ select guest_id, name, date_time_start, date_time_end from guests where host_id 
 select guest_id, name, date_time_start, date_time_end from guests where house_id = {user_house_id}
 
 --delete guest
-delete from guests where guest_id = {guest_id}
+delete from guests where guest_id = {guest_id} 
