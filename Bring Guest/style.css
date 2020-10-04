@@ -1,0 +1,150 @@
+.header{
+    display: inline-block;
+    width: 95%;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+.logo{  
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 35px;
+
+    font-variant: small-caps;
+
+    color: #394262;
+    float:left;
+}
+.header img {
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+
+.side-col {
+    width: 240px;
+    height: 100%;
+    padding: 0px 50px 0px 50px;
+    border-right: 1px solid #BAC8E2;
+}
+
+.sel-add {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+    color: #6573A2;
+    margin-bottom: 50px;
+}
+
+.button-group{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.whitebutton{
+    margin:15px;
+    width: 175px;
+    height: 60px;
+
+    background-color: white;
+    border: 1px solid #394262;
+    color: #394262;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+    
+}
+
+.bluebutton{
+    margin:15px;
+    width: 175px;
+    height: 60px;
+
+    background-color: #394262;
+    border: 0px solid white;
+    color: white;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.main-col{
+    margin: -20px 170px 0px 170px;
+    width: 700px;
+    height : 100%;
+}
+
+.main-address{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #394262;
+    float: left;
+}
+
+.address-header{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.name-input{
+    width: 70%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #394262;
+    margin-top: -10px;
+    padding: 0px 20px 0px 20px;
+}
+
+.input-header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 41px;
+    /* identical to box height */
+
+    color: #394262;
+}
+
+.checkdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.name-check{
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.checkbutton {
+    background-color: transparent;
+    border: transparent;
+}
+
+.foot {
+    position: absolute;
+  left: 80%;
+  bottom: 50px;
+}
