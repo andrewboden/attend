@@ -19,13 +19,28 @@
 
 --------- ABOVE WERE DEALING WITH TEST DATA. BELOW IS QUERIES ---------
 
---User sign up and login--
+--User sign up and login and info access--
 --check if user exists, 0 if not exist, 1 if exists
-select count(*) from users where email = {user_email};
+select count(*) from users where email = {user_email} or username = {user_username};
 --insert new user
-insert into users (name, email, username, passwordHash), ({user_name}, {user_email}, {user_username}, {user_password_hash});
---login auth 1 if checks out, 2 if doesnt check out
-select count(*) from users where email = {user_email} and password_hash = {user_password_hash}
+insert into users (name, email, username, passwordHash) values ({user_name}, {user_email}, {user_username}, {user_password_hash});
+--login auth exists a row if checks out, doesnt exist row if doesnt check out, provides user id for future queries
+select user_id from users where username like {user_username} and password_hash like {user_password_hash}
+--access list of houses this user is a part of
+select house.house_id, house_name from house_members join house on house.house_id = house_members.house_id where user_id = {user_user_id}
 
---count number of guests at a certain time--
-select count(*) from guests where 
+--count number of guests after a certain time at a certain house--
+select count(*) from guests where house_id = {user_house_id} and date_time_start >= {time}
+
+--add guest
+insert into guests (name, host_id, house_id, date_time_start, date_time_end) 
+            values ({guest_name}, {user_user_id}, {user_house_id}, {start_time}, {end_time})
+
+--guest list for user in house--
+select guest_id, name, date_time_start, date_time_end from guests where host_id = {user_user_id} and house_id = {user_house_id}
+
+--guest list for a house
+select guest_id, name, date_time_start, date_time_end from guests where house_id = {user_house_id}
+
+--delete guest
+delete from guests where guest_id = {guest_id}
